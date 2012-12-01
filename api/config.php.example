@@ -1,0 +1,6 @@
+<?php
+
+	define("SHOP_ID", "400000");
+	define("SPREADSHIRT_API_URL", "http://api.spreadshirt.net/api/v1");
+
+?>
