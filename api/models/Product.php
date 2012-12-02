@@ -11,41 +11,41 @@ class Product {
 	/**
 	 * The weight of the product in a list. Used for sorting products in a list. 
 	 */
-	var weight;
+	var $weight;
 
 	/**
 	 * Reference to the user that owns that product. 
 	 */
-	var user;
+	var $user;
 
 	/**
 	 * Reference to the product type that was used to create this product. See 
 	 * Retrieve Shop ProductType Entity for more details. 
 	 */
-	var productType;
+	var $productType;
 
 	/**
 	 * Reference to the product type appearance (aka color) that was selected to
 	 * create this product. 
 	 */
-	var appearance;
+	var $appearance;
 
 	/**
 	 * Set of restrictions that tell you what you can't do with this product. 
 	 */
-	var restrictions;
+	var $restrictions;
 
 	/**
 	 * List of configurations applied to the specified product type, i.e. text 
 	 * or designs. 
 	 */
-	var configurations;
+	var $configurations;
 
 	/**
 	 * References to product resources (aka images). Use this links in case you
 	 * want to display product images. 
 	 */
-	var resources ;
+	var $resources ;
 
 	/**
 	 * Constructor
@@ -54,5 +54,5 @@ class Product {
 	}
 
 
-
+}
 ?>

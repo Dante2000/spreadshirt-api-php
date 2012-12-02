@@ -10,12 +10,12 @@ class APIFeature {
 	/**
 	 * Name of the api feature, e.g. product creation. 
 	 */
-	var name;
+	var $name;
 
 	/**
 	 * Description of the api feature. 
 	 */
-	var description;
+	var $description;
 
 	/**
 	 * Constructor
@@ -24,5 +24,5 @@ class APIFeature {
 	}
 
 
-
+}
 ?>

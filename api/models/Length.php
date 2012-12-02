@@ -9,12 +9,12 @@ class Length {
 	/**
 	 * The unit of a value, e.g. cm. 
 	 */
-	var unit ;
+	var $unit ;
 
 	/**
 	 * The unit factor of a value, e.g. 1.0. 
 	 */
-	var unitFactor ;
+	var $unitFactor ;
 
 	/**
 	 * Constructor
@@ -23,5 +23,5 @@ class Length {
 	}
 
 
-
+}
 ?>

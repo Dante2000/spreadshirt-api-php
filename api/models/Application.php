@@ -10,12 +10,12 @@ class Application {
 	/**
 	 * Name of the application. 
 	 */
-	var name;
+	var $name;
 
 	/**
 	 * Application specific properties. as a map
 	 */
-	var properties;
+	var $properties;
 
 	/**
 	 * Constructor
@@ -24,5 +24,5 @@ class Application {
 	}
 
 
-
+}
 ?>
